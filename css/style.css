@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+header{
+    padding: 30px 0px;
+}
+.container{
+    width: 1800px;
+    margin: auto;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.logo a{}
+.logo a img{}
+nav{
+    width: 70%;
+    float: left;
+}
+nav ul{margin: 0;padding: 0;display: flex;justify-content: flex-end;list-style: none;}
+nav ul li{}
+nav ul li a{
+    text-decoration: none;
+    padding: 0 100px;
+    color: #0000006b;
+    padding-right: 0;
+}
+
+.banner-section{}
+.banner-section img {
+    width: 100%;
+}
+
+.gateway-section {
+    padding: 70px 0;
+}
+.wrapper {
+    width: 1600px;
+     margin: auto;
+}
+.gateway-content {}
+.gateway-content a {
+    text-decoration: none;
+    color: #00000054;
+    text-transform: uppercase;
+}
+.gateway-content h2 {
+    color: #00000075;
+}
+.gateway-content p {
+    color: #00000094;
+}
+
+
+.lifestyle-section{}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col-1-2{
+    width: 48%;
+    flex-basis: 48%;
+}
+.col-1-2 img{
+    width: 100%;
+}
+.col-1-2 a{
+    text-decoration: none;
+    color: #00000091;
+    display: block;
+    padding: 20px 0;
+}
+.col-1-2 h2{}
+.col-1-2 p{
+    padding: 20px 0;
+} 
+
+
+footer{background-color: #0000002e;padding: 30px 0;}
+.copyright{
+}
+.copyright ul{
+    display: flex;
+    list-style: none;
+}
+.copyright ul li{}
+.copyright ul li a{
+    text-decoration: none;
+    padding: 0 20px;
+    padding-left: 0;
+}
+
+ 
+.social{}
+.social ul{
+    display: flex;
+    list-style: none;
+}
+.social ul li{}
+.social ul li a{
+    padding: 0 20px;
+}
